@@ -1,0 +1,77 @@
+.accordionwrap{
+	width:100%;
+	float:left;
+	margin-top:25px;
+}
+
+.accordiontitle{
+	width:94%;
+	float:left;
+	padding:3%;
+	color:#807f7f;
+	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	border: 1px solid #DDD;
+	cursor:pointer;
+	background-color: #E6E6E6;
+	background-image:url(../img/toggles.png);
+	background-repeat: no-repeat;
+	background-position: right -55px;
+}
+
+.accordiontitle a, .accordiontitle a:visited, .accordiontitle a:hover{
+	color:#807f7f;
+	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	text-decoration:none;
+}
+
+.accordiontitle.active {
+	background-position: right 5px;
+}
+
+.accordioncontent{
+	width:94%;
+	float:left;
+	padding:3%;
+	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#666666;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+li.orange-cross{
+	background-image: url(../img/orange-cross.png);
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+	padding: 3px 0px 3px 22px;
+	list-style-type: none;
+	font-family: 'HelveticaLTStdRoman',Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	color: #000000;
+}
+.usericon{
+	background-image: url(../img/user-icon.png);
+	background-repeat: no-repeat;
+	padding: 3px 0px 3px 20px;
+	background-position: 0px 1px;
+	color: #000000;
+}
+.phoneicon{
+	background-image:url(../img/phone-icon.png);
+	background-repeat: no-repeat;
+	padding:3px 0px 3px 20px;
+	background-position: 0px 2px;
+}
+.split3{
+	width:50%;
+	padding:10px 2% 10px 1%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+p{
+	margin: 0px 0px 10px;
+	text-align: center;
+}
