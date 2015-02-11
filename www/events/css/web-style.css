@@ -542,7 +542,76 @@ hr{
 	float:none;
 	margin:0px auto;
 }
+/**********************************************/
+/************* Splits Section *****************/
+/**********************************************/
 
+.splitnone{
+	width: 100%;
+	float: left;
+	text-align: left;
+	color: #000;
+	padding: 10px 0px;
+	font-family: HelveticaLTStdRoman, Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+
+.split2{
+	width:46%;
+	padding:10px 2% 10px 2%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.split3{
+	width:30.1%;
+	padding:10px 2% 10px 1%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.split23{
+	width:61%;
+	padding:10px 3% 10px 2%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.split4{
+	width:21%;
+	padding:10px 2% 10px 2%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.leftsection{
+	width:63%;
+	padding:10px 3% 10px 0%;
+	float:left;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.leftsectionalt{
+	float:right !important;
+	padding:10px 0% 10px 3%;
+}
+
+.rightsection{
+	width:33%;
+	padding:10px 0%;
+	float:right;
+	text-align:left;
+	color:#7E7E7E;
+}
+
+.rightsectionalt{
+	float:left !important;
+}
 /**********************************************/
 /*************** Boxes Section ****************/
 /**********************************************/
@@ -1249,76 +1318,7 @@ a:hover.blackbutton{
 	text-shadow:none !important;
 }
 
-/**********************************************/
-/************* Splits Section *****************/
-/**********************************************/
 
-.splitnone{
-	width: 100%;
-	float: left;
-	text-align: left;
-	color: #000;
-	padding: 10px 0px;
-	font-family: HelveticaLTStdRoman, Arial, Helvetica, sans-serif;
-	font-size: 11pt;
-}
-
-.split2{
-	width:46%;
-	padding:10px 2% 10px 2%;
-	float:left;
-	text-align:left;
-	color:#7E7E7E;
-}
-
-.split3{
-	width:30.1%;
-	padding:10px 2% 10px 1%;
-	float:left;
-	text-align:left;
-	color:#7E7E7E;
-}
-
-.split23{
-	width:61%;
-	padding:10px 3% 10px 2%;
-	float:left;
-	text-align:left;
-	color:#7E7E7E;
-}
-
-.split4{
-	width:21%;
-	padding:10px 2% 10px 2%;
-	float:left;
-	text-align:left;
-	color:#7E7E7E;
-}
-
-.leftsection{
-	width:63%;
-	padding:10px 3% 10px 0%;
-	float:left;
-	text-align:left;
-	color:#7E7E7E;
-}
-
-.leftsectionalt{
-	float:right !important;
-	padding:10px 0% 10px 3%;
-}
-
-.rightsection{
-	width:33%;
-	padding:10px 0%;
-	float:right;
-	text-align:left;
-	color:#7E7E7E;
-}
-
-.rightsectionalt{
-	float:left !important;
-}
 
 /**********************************************/
 /********** Simple Slider Section *************/
@@ -3140,3 +3140,4 @@ textarea.contacttextarea{
 	font-family: 'BebasNeueRegular',Arial, Helvetica, sans-serif;
 	font-size:15pt;
 }
+
