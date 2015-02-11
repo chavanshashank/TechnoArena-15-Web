@@ -1044,6 +1044,7 @@ button.trigger span::before {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	padding: 0 0 0.6em;
+	color:#222;
 }
 
 .intro-effect-grid.modify .header h1 {
