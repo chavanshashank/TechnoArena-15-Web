@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <!--
@@ -29,31 +28,37 @@ follow us at http://facebook.com/technoarena
 		<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 		
 		<script type="text/javascript" >
-function RedirectSmartphone(url){
-    if (url && url.length > 0 && IsSmartphone())
-    window.location = url;
-}
-function IsSmartphone(){
-    if (DetectUagent("android")) return true;
-    else if (DetectUagent("blackberry")) return true;
-    else if (DetectUagent("ucbrowser")) return true;
-    else if (DetectUagent("operamini")) return true;
-    else if (DetectUagent("palm")) return true;
-    
-    else if (DetectUagent("generic")) return true;
-    else if (DetectUagent("symbian")) return true;
-    return false;
-}
-function DetectUagent(name){
-    var uagent = navigator.userAgent.toLowerCase();
-    if (uagent.search(name) > -1)
-    return true;
-    else
-    return false;
-}
-RedirectSmartphone("http://www.technoarena.org/m/index.html");
+		
+			var urlArgByShas = location.href.split('m=')[1];	
+			if (urlArgByShas!=0) {
+				function RedirectSmartphone(url){
+					if (url && url.length > 0 && IsSmartphone())
+					window.location = url;
+				}
+				function IsSmartphone(){
+				if (DetectUagent("android")) return true;
+				else if (DetectUagent("blackberry")) return true;
+				else if (DetectUagent("ucbrowser")) return true;
+				else if (DetectUagent("operamini")) return true;
+				else if (DetectUagent("opera mobi")) return true;
+				else if (DetectUagent("palm")) return true;
+				else if (DetectUagent("iphone")) return true;
+				else if (DetectUagent("generic")) return true;
+				else if (DetectUagent("symbian")) return true;
+				return false;
+			}
+			function DetectUagent(name){
+				var uagent = navigator.userAgent.toLowerCase();
+				if (uagent.search(name) > -1)
+				return true;
+				else
+				return false;
+			}
+			RedirectSmartphone("http://www.technoarena.org/m/index.html");
+			}
+			
 
-</script>
+		</script>
 		
 <!--[if IE]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
